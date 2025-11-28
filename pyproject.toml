@@ -14,6 +14,7 @@ dependencies = [
 
 [tool.taskipy.tasks]
 test = { cmd = "pytest", help = "Runs all unit tests." }
+new-exec = { cmd = "poetry run python scripts/cria_pasta.py", help = "Add new exec folder." }
 
 
 [build-system]
