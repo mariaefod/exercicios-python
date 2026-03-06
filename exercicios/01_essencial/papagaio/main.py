@@ -1,2 +1,7 @@
 def resposta(falando, hora):
-    pass
+    if falando == True and hora <= 7:
+        return True
+    elif falando == True and hora >= 20:
+        return True
+    else:
+        return False

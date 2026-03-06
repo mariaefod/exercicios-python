@@ -1,2 +1,4 @@
 def resposta(palavra, index):
-    pass
+    return palavra[:index] + palavra[index+1:]
+
+print(resposta('kitten', 4))

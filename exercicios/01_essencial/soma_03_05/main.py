@@ -1,3 +1,2 @@
 def resposta(n):
-    pass
-
+    return

@@ -1,2 +1,2 @@
 def resposta(n1, n2):
-    pass
+    return int(n1 + n2)
