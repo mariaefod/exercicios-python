@@ -1,2 +1,7 @@
 def resposta(n):
-    return
+    soma = 0
+
+    for i in range(n):
+        if i % 3 == 0 or i % 5 == 0:
+            soma += i
+    return soma
